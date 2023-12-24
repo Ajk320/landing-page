@@ -169,3 +169,13 @@ figcaption{
     font-weight: bold;
     border-color:#E5E7EB;
 }
+.footer{
+    background: #1F2937;
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 10px;
+    padding: 5px;
+}
