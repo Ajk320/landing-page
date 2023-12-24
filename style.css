@@ -115,3 +115,23 @@ figcaption{
     color: #A8ACB3;
     width: 104px;
 }
+
+.quote-section{
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.quote{
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight:100;
+}
+.author{
+    font-weight: bold;
+    padding-left: 400px;
+    padding-top: 20px;
+}
