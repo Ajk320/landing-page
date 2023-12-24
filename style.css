@@ -4,6 +4,8 @@ body{
 }
 ul{
     list-style: none;
+}
+.header-links{
     display: flex;
     gap: 7px;
     padding: 0;
@@ -55,7 +57,7 @@ a{
 }
 .hero-description{
     font-size: 18px;
-    color: #F9FAF8;
+    color: #A8ACB3;
 }
 
 button{
@@ -75,4 +77,41 @@ button{
     align-items: center;
     justify-content: center;
     color: #A8ACB3;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header{
+    display: flex;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 20px;
+}
+
+.information-images{
+   display: flex;
+   padding: 0;
+   margin: 0;
+   width: max-content;
+
+}
+
+.random-image{
+    border: 3px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+}
+
+figcaption{
+    display: flex;
+    font-size: 15px;
+    color: #A8ACB3;
+    width: 104px;
 }
